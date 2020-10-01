@@ -9,12 +9,12 @@ int main()
 {
 
     int N;
-    cin >> N;
+    cin >> N; //enter number of test cases
 
     for (int i = 0; i < N; i++) 
 	{
         string str;
-        cin >> str;
+        cin >> str; //enter a string
 
         for (int j = 0; j < str.length(); j++) 
 		{
@@ -30,7 +30,7 @@ int main()
 		{
             if (j % 2 != 0)
             {
-            	cout << str[j];
+            	cout << str[j]; //will divide the string into 2 parts, odd and even. odd characters will be in one place and even charaters in another.
 			}
         }
 
